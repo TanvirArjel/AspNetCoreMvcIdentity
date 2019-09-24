@@ -1,19 +1,17 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
-using AspNetCoreMvcIdentity.Extensions;
+﻿using AspNetCoreMvcIdentity.Extensions;
+using AspNetCoreMvcIdentity.Models;
+using AspNetCoreMvcIdentity.Models.ManageViewModels;
+using AspNetCoreMvcIdentity.Services;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
-using AspNetCoreMvcIdentity.Models;
-using AspNetCoreMvcIdentity.Models.ManageViewModels;
-using AspNetCoreMvcIdentity.Services;
+using System;
+using System.Linq;
+using System.Text;
+using System.Text.Encodings.Web;
+using System.Threading.Tasks;
 
 namespace AspNetCoreMvcIdentity.Controllers
 {
